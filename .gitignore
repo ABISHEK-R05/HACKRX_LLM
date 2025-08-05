@@ -1,0 +1,30 @@
+# Python Virtual Environments
+# Ignore the virtual environment folder
+venv/
+.venv/
+
+# Python Generated Files
+# Ignore bytecode and cache folders/files
+__pycache__/
+*.pyc   
+*.pyo
+*.pyd
+
+# Generated Database
+# Ignore the ChromaDB persistent directory created by ingest.py
+db/
+
+# Temporary Files
+# Ignore the temp PDF file created by the script
+temp_policy.pdf
+
+# Environment Variables & Secrets
+# Ignore files containing secret API keys
+.env
+.env.*
+*.env
+
+# OS-specific files
+# Ignore macOS and Windows specific system files
+.DS_Store
+Thumbs.db
