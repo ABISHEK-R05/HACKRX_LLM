@@ -52,7 +52,7 @@ prompt = PromptTemplate(
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash", # A fast and capable model
     temperature=0,
-    google_api_key="AIzaSyAA9Xo0cHf_VwyA5_jae82hyBoADvp0z48"  # <-- PASTE YOUR GEMINI API KEY HERE
+    google_api_key="AIzaSyD1ffrRJp2uakby2t3hx1McpsPm8aZzCQM"  # <-- PASTE YOUR GEMINI API KEY HERE
 )
 parser = JsonOutputParser()
 

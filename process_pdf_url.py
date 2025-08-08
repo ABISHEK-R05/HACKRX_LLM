@@ -35,7 +35,7 @@ def get_pdf_text_from_url(url: str) -> str:
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-pro",
     temperature=0,
-    google_api_key="AIzaSyB5M8RocvUDCwzy1hK0sZponVXKCHs70Ok"
+    google_api_key="AIzaSyD1ffrRJp2uakby2t3hx1McpsPm8aZzCQM"
 )
 
 parser = JsonOutputParser()
