@@ -26,7 +26,7 @@ class Extraction(BaseModel):
     extracted_content: str = Field(description="The specific content extracted from the document that answers the user's query.")
     source_quote: str = Field(description="The exact source sentence from the document that was used to form the answer.")
 
-app = FastAPI(title="PDF Highlighting and Batch Extraction API")
+app = FastAPI(title="Batch Extraction API")
 
 os.makedirs("static", exist_ok=True)
 app.mount("/static", StaticFiles(directory="static"), name="static")
